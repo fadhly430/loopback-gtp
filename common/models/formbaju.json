@@ -1,0 +1,33 @@
+{
+  "name": "formbaju",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "JenisBarang": {
+      "type": "string",
+      "required": true 
+    },
+    "KodeBarang": {
+      "type": "string",
+      "required": true
+    },
+    "Warna": {
+      "type": "string"
+    },
+    "Ukuran ": {
+      "type": "string",
+      "required":true
+    },
+    "Stock": {
+      "type": "string",
+      "required":true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

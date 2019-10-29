@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "formbaju": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "costumers": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "formsepatu": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "formdompet": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
