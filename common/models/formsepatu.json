@@ -6,7 +6,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "JenisBarang": {
+    "Harga": {
       "type": "string",
       "required": true
     },
@@ -14,14 +14,19 @@
       "type": "string",
       "required": true
     },
-    "Warna": {
-      "type": "string"
-    },
     "Ukuran ": {
       "type": "string",
       "required": true
     },
     "Stock": {
+      "type": "string",
+      "required": true
+    },
+    "Nama": {
+      "type": "string",
+      "required": true
+    },
+    "Img": {
       "type": "string",
       "required": true
     }
