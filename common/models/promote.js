@@ -1,11 +1,11 @@
 'use strict';
 
-module.exports = function(Costumers) {
+module.exports = function(Promote) {
 
-    Costumers.getCostumersName = function(name, callback){
+    Promote.getFormName = function(name, callback){
         new Promise(function(resolve, reject){
             // FIND NAME
-            Costumers.find({where : {nama : {like : name}}}, function(err, result){
+            Promote.find({where : {nama : {like : name}}}, function(err, result){
                 if(err) reject (err);
                 if(result === null){
                     err = new Error("user not found");
@@ -22,17 +22,17 @@ module.exports = function(Costumers) {
         });
     };
 
-    Costumers.remoteMethod(
-        'getCostumersName',
+    Promote.remoteMethod(
+        'getPromoteName',
         {
-            description: 'get user by name',
+            description: 'post user by name',
             accepts: [{
                  arg: 'name', type: 'string'}
         ],
         returns: {
             arg: 'res', type: 'object', root:true
         },
-        http: {path: '/getCostumersByName', verb: 'get'}
+        http: {path: '/getPromoteByName', verb: 'get'}
         }
     );
 

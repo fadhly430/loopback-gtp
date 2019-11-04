@@ -8,7 +8,7 @@
   "properties": {
     "JenisBarang": {
       "type": "string",
-      "required": true 
+      "required": true
     },
     "KodeBarang": {
       "type": "string",
@@ -19,11 +19,11 @@
     },
     "Ukuran ": {
       "type": "string",
-      "required":true
+      "required": true
     },
     "Stock": {
       "type": "string",
-      "required":true
+      "required": true
     }
   },
   "validations": [],

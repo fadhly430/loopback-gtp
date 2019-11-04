@@ -1,27 +1,16 @@
 {
-  "name": "formsepatu",
+  "name": "discount",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "JenisBarang": {
+    "Discount": {
       "type": "string",
       "required": true
     },
-    "KodeBarang": {
-      "type": "string",
-      "required": true
-    },
-    "Warna": {
-      "type": "string"
-    },
-    "Ukuran ": {
-      "type": "string",
-      "required": true
-    },
-    "Stock": {
+    "Coupons": {
       "type": "string",
       "required": true
     }

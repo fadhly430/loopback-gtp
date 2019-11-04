@@ -1,25 +1,14 @@
 {
-  "name": "costumers",
+  "name": "promote",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "nama": {
-      "type": "string",
-      "required": true 
-    },
-    "alamat": {
-      "type": "string",
-      "required": true
-    },
-    "NoTlp": {
-      "type": "string"
-    },
     "email": {
       "type": "string",
-      "required":true
+      "required": true
     }
   },
   "validations": [],

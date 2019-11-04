@@ -1,27 +1,24 @@
 {
-  "name": "formsepatu",
+  "name": "message",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "JenisBarang": {
+    "Name": {
       "type": "string",
       "required": true
     },
-    "KodeBarang": {
+    "Email": {
       "type": "string",
       "required": true
     },
-    "Warna": {
-      "type": "string"
-    },
-    "Ukuran ": {
+    "Phone": {
       "type": "string",
       "required": true
     },
-    "Stock": {
+    "Message": {
       "type": "string",
       "required": true
     }

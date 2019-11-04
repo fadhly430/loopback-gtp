@@ -39,15 +39,27 @@
     "dataSource": "mongodb",
     "public": true
   },
-  "costumers": {
-    "dataSource": "mongodb",
-    "public": true
-  },
   "formsepatu": {
     "dataSource": "mongodb",
     "public": true
   },
   "formdompet": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "customer": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "message": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "discount": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "promote": {
     "dataSource": "mongodb",
     "public": true
   }
