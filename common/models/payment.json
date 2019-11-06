@@ -1,47 +1,51 @@
 {
-  "name": "customer",
+  "name": "payment",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "FirstName": {
+    "FNama": {
       "type": "string",
       "required": true
     },
-    "LastName": {
+    "LNama": {
       "type": "string",
       "required": true
     },
-    "Address": {
+    "Alamat": {
       "type": "string",
       "required": true
     },
-    "District": {
+    "Kecamatan": {
       "type": "string"
     },
-    "City": {
+    "Kota": {
       "type": "string",
       "required": true
     },
-    "Country": {
+    "Negara": {
       "type": "string",
       "required": true
     },
-    "Province": {
+    "Provinsi": {
       "type": "string",
       "required": true
     },
-    "Postal Code": {
+    "Kodepos": {
       "type": "string",
       "required": true
     },
-    "Phone": {
+    "Tlp": {
       "type": "string",
       "required": true
     },
     "Shipping": {
+      "type": "string",
+      "required": true
+    },
+    "Diskon": {
       "type": "string",
       "required": true
     }

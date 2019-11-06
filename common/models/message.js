@@ -25,7 +25,7 @@ module.exports = function(Message) {
     Message.remoteMethod(
         'getMessageName',
         {
-            description: 'post user by name',
+            description: 'get user by name',
             accepts: [{
                  arg: 'name', type: 'string'}
         ],

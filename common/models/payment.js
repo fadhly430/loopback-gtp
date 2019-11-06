@@ -1,11 +1,11 @@
 'use strict';
 
-module.exports = function(Customer) {
+module.exports = function(Payment) {
 
-    Customer.getCustomerName = function(name, callback){
+    Payment.getPaymentName = function(name, callback){
         new Promise(function(resolve, reject){
             // FIND NAME
-            Customer.find({where : {nama : {like : name}}}, function(err, result){
+            Payment.find({where : {nama : {like : name}}}, function(err, result){
                 if(err) reject (err);
                 if(result === null){
                     err = new Error("user not found");
@@ -22,8 +22,8 @@ module.exports = function(Customer) {
         });
     };
 
-    Customer.remoteMethod(
-        'getCustomerByName',
+    Payment.remoteMethod(
+        'getPaymentName',
         {
             description: 'get user by name',
             accepts: [{
@@ -32,7 +32,7 @@ module.exports = function(Customer) {
         returns: {
             arg: 'res', type: 'object', root:true
         },
-        http: {path: '/getCustomerByName', verb: 'get'}
+        http: {path: '/getPaymentByName', verb: 'get'}
         }
     );
 
