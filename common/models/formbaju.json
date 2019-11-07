@@ -6,26 +6,26 @@
     "validateUpsert": true
   },
   "properties": {
-    "Harga": {
+    "HargaApparel": {
       "type": "string",
       "required": true
     },
-    "KodeBarang": {
+    "KodeApparel": {
       "type": "string",
       "required": true
     },
-    "Nama": {
+    "NamaApparel": {
       "type": "string"
     },
-    "Ukuran ": {
+    "UkuranApparel ": {
       "type": "string",
       "required": true
     },
-    "Stock": {
+    "StockApparel": {
       "type": "string",
       "required": true
     },
-    "Img": {
+    "ImgApparel": {
       "type": "string",
       "required": true
     }

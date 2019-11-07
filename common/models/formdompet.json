@@ -6,23 +6,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "Harga": {
+    "HargaWallet": {
       "type": "string",
       "required": true
     },
-    "KodeBarang": {
+    "KodeWallet": {
       "type": "string",
       "required": true
     },
-    "Nama": {
+    "NamaWallet": {
       "type": "string",
       "required": true
     },
-    "Stock": {
+    "StockWallet": {
       "type": "string",
       "required": true
     },
-    "Img": {
+    "ImgWallet": {
       "type": "string",
       "required": true
     }

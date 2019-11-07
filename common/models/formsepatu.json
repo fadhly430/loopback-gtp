@@ -6,27 +6,27 @@
     "validateUpsert": true
   },
   "properties": {
-    "Harga": {
+    "HargaShoes": {
       "type": "string",
       "required": true
     },
-    "KodeBarang": {
+    "KodeShoes": {
       "type": "string",
       "required": true
     },
-    "Ukuran ": {
+    "UkuranShoes": {
       "type": "string",
       "required": true
     },
-    "Stock": {
+    "StockShoes": {
       "type": "string",
       "required": true
     },
-    "Nama": {
+    "NamaShoes": {
       "type": "string",
       "required": true
     },
-    "Img": {
+    "ImgShoes": {
       "type": "string",
       "required": true
     }
