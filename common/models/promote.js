@@ -2,7 +2,7 @@
 
 module.exports = function(Promote) {
 
-    Promote.getFormName = function(name, callback){
+    Promote.getPromoteName = function(name, callback){
         new Promise(function(resolve, reject){
             // FIND NAME
             Promote.find({where : {nama : {like : name}}}, function(err, result){
@@ -25,7 +25,7 @@ module.exports = function(Promote) {
     Promote.remoteMethod(
         'getPromoteName',
         {
-            description: 'post user by name',
+            description: 'get user by name',
             accepts: [{
                  arg: 'name', type: 'string'}
         ],

@@ -39,6 +39,10 @@
     "dataSource": "mongodb",
     "public": true
   },
+    "container":{
+      "dataSource":"storage",
+      "public":true
+   },
   "formsepatu": {
     "dataSource": "mongodb",
     "public": true
@@ -64,3 +68,4 @@
     "public": true
   }
 }
+
