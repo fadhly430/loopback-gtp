@@ -66,6 +66,10 @@
   "promote": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "keranjang": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
 

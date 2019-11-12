@@ -1,0 +1,23 @@
+{
+    "name": "keranjang",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "model": {
+        "type": "string",
+        "required": true
+      },
+      "jumlah": {
+        "type": "number",
+        "required": true
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  
