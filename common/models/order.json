@@ -1,17 +1,17 @@
 {
-  "name": "keranjang",
+  "name": "order",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "model": {
+    "id_prudct": {
       "type": "string",
       "required": true
     },
-    "jumlah": {
-      "type": "number",
+    "id_custumer": {
+      "type": "string",
       "required": true
     }
   },
