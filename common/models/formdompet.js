@@ -22,6 +22,26 @@ module.exports = function(Formdompet) {
         });
     };
 
+    Formdompet.getFormdompetByKategori = function(kategori, callback) {
+        new Promise(function(resolve,reject){
+
+            Formdompet.find({where: {kategori: {like: kategori}}}, function(err, result){
+                if (err) reject(err);
+                if (result === null) {
+                    err = new Error('User not Found');
+                    err.statusCode = 404;
+                    reject(err);
+                }
+                resolve(result);
+            });
+        }).then(function(res){
+            if (!res) callback(err);
+            return callback(null, res);
+        }).catch(function(err){
+            callback(err);
+        });
+    };
+
     Formdompet.remoteMethod(
         'getFormdompetName',
         {

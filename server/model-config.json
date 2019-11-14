@@ -39,10 +39,10 @@
     "dataSource": "mongodb",
     "public": true
   },
-    "container":{
-      "dataSource":"storage",
-      "public":true
-   },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
   "formsepatu": {
     "dataSource": "mongodb",
     "public": true
@@ -67,9 +67,16 @@
     "dataSource": "mongodb",
     "public": true
   },
+<<<<<<< HEAD
   "cart": {
+=======
+  "keranjang": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "order": {
+>>>>>>> 429285efa7cd7fb15601aad7a1ee38b59e54d52b
     "dataSource": "mongodb",
     "public": true
   }
 }
-
