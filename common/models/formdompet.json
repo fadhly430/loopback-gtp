@@ -18,6 +18,10 @@
       "type": "string",
       "required": true
     },
+    "KeteranganWallet": {
+      "type": "string",
+      "required": true
+    },
     "StockWallet": {
       "type": "string",
       "required": true
@@ -25,6 +29,10 @@
     "ImgWallet": {
       "type": "string",
       "required": true
+    },
+    "createAt":{
+      "type":"date",
+      "defaultFn": "now"
     }
   },
   "validations": [],

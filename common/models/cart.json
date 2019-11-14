@@ -1,0 +1,22 @@
+{
+  "name": "cart",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "KodeProduk": {
+      "type": "string",
+      "required": true
+    },
+    "SubTotal": {
+      "type": "string",
+      "required": true
+    }
+    },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

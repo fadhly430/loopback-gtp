@@ -14,7 +14,7 @@
       "type": "string",
       "required": true
     },
-    "UkuranShoes": {
+    "KeteranganShoes": {
       "type": "string",
       "required": true
     },
@@ -29,6 +29,10 @@
     "ImgShoes": {
       "type": "string",
       "required": true
+    },
+    "createAt":{
+      "type":"date",
+      "defaultFn": "now"
     }
   },
   "validations": [],

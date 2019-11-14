@@ -17,7 +17,7 @@
     "NamaApparel": {
       "type": "string"
     },
-    "UkuranApparel ": {
+    "KeteranganApparel": {
       "type": "string",
       "required": true
     },
@@ -28,6 +28,10 @@
     "ImgApparel": {
       "type": "string",
       "required": true
+    },
+    "createAt":{
+      "type":"date",
+      "defaultFn": "now"
     }
   },
   "validations": [],

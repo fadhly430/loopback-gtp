@@ -6,45 +6,75 @@
     "validateUpsert": true
   },
   "properties": {
+   "id_barang": {
+    "type": "string",
+    "required": true
+   },
+
+   "id_customer": {
+    "type": "string",
+    "required": true
+   },
+
     "FNama": {
       "type": "string",
       "required": true
     },
+   
     "LNama": {
       "type": "string",
       "required": true
     },
+   
     "Alamat": {
       "type": "string",
       "required": true
     },
+  
     "Kecamatan": {
       "type": "string"
     },
+  
     "Kota": {
       "type": "string",
       "required": true
     },
+  
     "Negara": {
       "type": "string",
       "required": true
     },
+   
     "Provinsi": {
       "type": "string",
       "required": true
     },
+   
     "Kodepos": {
       "type": "string",
       "required": true
     },
+   
     "Tlp": {
       "type": "string",
       "required": true
     },
+   
     "Shipping": {
       "type": "string",
       "required": true
-    }
+    },
+
+    "Jumlah": {
+      "type": "string",
+      "required": true
+     },
+
+     "Total": {
+      "type": "string",
+      "required": true
+     }
+
   },
   "validations": [],
   "relations": {},
